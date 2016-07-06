@@ -90,6 +90,68 @@ i-u，u-i结果为unsigned int，无论哪种情况均可表示0.
 ##2.7
 		（a）中\145表示'e'，\012表示换行符。字符串中的'\'后面的数字默认是八进制，除非是'\x'开始；
 （b）中3.14e1L表示long double类型浮点数；1024f表示float类型浮点数；3.14L表示long double类型浮点数。
-##2.8
-see ex2_8.cpp.
 
+##2.8
+
+see ex2_8.cpp.
+##2.9
+
+* (a) 错，cin 后面直接跟变量，而不是声明变量。修改为：
+
+```
+    int input_value;
+    std::cin >> input_value;
+```
+* (b) 错，{}表示列表初始化，在c++11中，如果列表初始化时初始值存在丢失的风险时，编译器会报错，修改为： 
+```
+int i = 3.14;
+或者
+int i(3.14);
+```
+* (c) 错，wage必须先声明；
+* (d) 对，最终i值为3。
+##2.10
+		
+```
+#include <iostream>
+using namespace std;
+
+std::string global_str;
+int global_int;
+int main(int argc, char** argv){
+    int local_int;
+	std::string local_str;
+	cout << "global_str = " << global_str << endl;
+	cout << "global_int = " << global_int << endl;
+	cout << "local_str = " << local_str << endl;
+	cout << "local_int = " << local_int << endl;
+}
+```
+输出结果为：
+```
+global_str = 
+global_int = 0
+local_str = 
+local_int = 0
+```
+解释：
+* global_str 为全局对象变量，使用默认初始化值，string默认初始化为空字符串；
+* global_int 为全局内置变量，初始化为0；
+* local_str 在函数体内，是局部对象变量，使用默认初始化值，string默认初始化为空字符串；
+* local_int 在函数体内，是局部内置变量，**不被初始化，值不确定**。
+
+实际上，如果g++开启 -Wall 参数，就会看到warning：
+```
+$ g++ -Wall -o ex2_10 ex2_10.cpp
+ex2_10.cpp: In function ‘int main(int, char**)’:
+ex2_10.cpp:12:28: warning: ‘local_int’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  cout << "local_int = " << local_int << endl;
+                              ^
+```
+**未经初始化的内置类型可能会引发运行时故障**
+							  
+##2.11
+(a) 定义；
+(b) 定义；
+(c) 声明；
+							  

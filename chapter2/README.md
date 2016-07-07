@@ -247,3 +247,9 @@ if(*p) 判断p指针指向的int是否为0。
 
 ##2.24
 p指向int类型，lp指向long类型，而i为int类型，所以p合法，lp不合法。
+
+##2.25
+(a)ip 为 in类型指针，i为int类型变量，r为i的引用；  
+(b)i为int类型变量， ip为int类型空指针；
+(c)ip1为int类型指针，ip2为int类型变量。
+

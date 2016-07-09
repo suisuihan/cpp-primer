@@ -287,9 +287,15 @@ p指向int类型，lp指向long类型，而i为int类型，所以p合法，lp不
 (e) 非法，p1未初始化；  
 (f) 非法，ic为const int，不能修改。
 
+##2.30
 
+v2为顶层const，p2为底层const，p3 既是顶层const也是底层const，r2为底层const。
 
+##2.31
 
+* r1 = v2 合法，r1为v1的引用，修改后v1=0；
+* p1 = p2 非法，p2为底层const，p1不是；p2 = p1，合法，可以将int* 转换为const int*；
+* p1 = p3 非法，p3为底层const，p1不是；p2 = p3，合法，p2为底层const；
 
 
 

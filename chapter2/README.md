@@ -335,9 +335,54 @@ j2 type is i
 k2 type is i
 ```
 
+##2.36
 
+c is int;  
+b is int&;  
+when ++c, c = 4;  
+when ++d, a = 4;
+  
+##2.37
 
+c is int; d is int&;
 
+##2.38
+
+* auto ignores the top-level const, while decltype does not;
+* the type of decltype's depends on the form of its given expression.
+```
+#include <iostream>
+#include <typeinfo>
+using namespace std;
+
+int main(int argc, char** argv){
+	int i = 0, &r = i;
+	auto a = i;
+	decltype(i) b = i;
+	auto c = r;
+	decltype(r) d = r;
+	decltype((i)) e = i;
+	a++;
+	cout << "i="<<i<<endl;
+	b++;
+	cout << "i="<<i<<endl;
+	c++;
+	cout << "i="<<i<<endl;
+	d++;
+	cout << "i="<<i<<endl;
+	e++;
+	cout << "i="<<i<<endl;
+}
+```
+the output:
+```
+i=0
+i=0
+i=0
+i=1
+i=2
+```
+the output turns out that a is int, b is int, c is int, d is int&, e is int&.
 
 
 

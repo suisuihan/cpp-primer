@@ -297,6 +297,43 @@ v2为顶层const，p2为底层const，p3 既是顶层const也是底层const，r2
 * p1 = p2 非法，p2为底层const，p1不是；p2 = p1，合法，可以将int* 转换为const int*；
 * p1 = p3 非法，p3为底层const，p1不是；p2 = p3，合法，p2为底层const；
 
+##2.32
+
+非法，null为 int 类型，p为指针，修改为 *p = &null，更好的方法是 *p = nullptr；
+
+
+##2.33
+```
+a=42 成立，a为int类型；
+b=42 成立； 
+c=42 成立；
+d=42 非法，d为指针；
+e=42 非法，e为指向常量的指针；
+g=42 非法，g为整型常量引用，不能被重新赋值；
+```
+
+##2.34
+略
+
+##2.35
+
+i为const int；
+j为int__(自动推导时一般忽略顶层const)__；
+k为const int引用；
+p为指向const int 的指针；
+j2为const int；
+k2为const int的引用。
+
+代码见ex2_35.cpp，输出如下：
+
+```
+i type is i
+j type is i
+k type is i
+p type is PKi
+j2 type is i
+k2 type is i
+```
 
 
 

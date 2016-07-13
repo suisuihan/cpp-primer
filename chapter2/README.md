@@ -384,8 +384,36 @@ i=2
 ```
 the output turns out that a is int, b is int, c is int, d is int&, e is int&.
 
+##2.39
 
+the build Info like:
 
+```
+g++ -std=c++11 -o ex2_39 ex2_39.cpp 
+ex2_39.cpp:4:13: error: expected ‘;’ after struct definition
+ struct Foo {}
+```
+
+##2.40
+
+```
+struct Sales_data{
+	std::string bookNo;
+	std::string author;
+	std::string publisher;
+	unsigned units_sold = 0;
+	double revenue = 0.0;
+	double discount = 1.0;
+}
+```
+
+##2.41 
+
+//TODO ^_^
+
+##2.42
+the "Sales_data.h" is in [Sales_data.h]();
+//TODO ^_^
 
 
 

@@ -412,7 +412,7 @@ struct Sales_data{
 //TODO ^_^
 
 ##2.42
-the "Sales_data.h" is in [Sales_data.h]();
+the "Sales_data.h" is in [Sales_data.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter2/Sales_data.h);
 //TODO ^_^
 
 

@@ -32,4 +32,10 @@ the example is exercise3_2.
 
 ##3.4
 
-[ex3_3.cpp]()https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_3.cpp
+[ex3_4.cpp]()https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_3.cpp
+
+##3.5
+
+the code files are
+[ex3_5.cpp]()https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_5_1.cpp
+[ex3_5.cpp]()https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_5_2.cpp

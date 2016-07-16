@@ -32,7 +32,7 @@ the example is exercise3_2.
 
 ##3.4
 
-[ex3_4.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_3.cpp)
+[ex3_4.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_4.cpp)
 
 ##3.5
 

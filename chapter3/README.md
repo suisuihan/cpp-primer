@@ -101,3 +101,50 @@ vector<string> svec(10, "null");  // legal, svec has 10 string, initialize by st
 
 [ex3_15.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_15.cpp)
 
+##3.16
+
+[ex3_16.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_16.cpp)
+
+##3.17
+
+[ex3_17.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_17.cpp)
+
+##3.18
+
+Illegal. Vector does not define capacity.
+~~~
+vector<int> ivec{42};
+~~~
+
+##3.19
+
+~~~
+* vector<int> vec{42,42,42,42,42,42,42,42,42,42};
+* vector<int> vec(10, 42);
+* vector<int> vec;
+  for(int i(0); i< 10;i++)
+      vec.push_back(42);
+~~~
+I like second.
+
+##3.20
+
+[ex3_30.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_20.cpp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

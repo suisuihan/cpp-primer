@@ -92,3 +92,12 @@ vector<string> svec(10, "null");  // legal, svec has 10 string, initialize by st
 (f) v6 has 10 strings, each is "";
 (g) v7 has 10 strings, each is "hi".
 ~~~
+
+##3.14
+
+[ex3_14.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_14.cpp)
+
+##3.15
+
+[ex3_15.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_15.cpp)
+

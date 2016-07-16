@@ -136,6 +136,21 @@ I like second.
 
 [ex3_21.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_21.cpp)
 
+##3.22
+
+~~~
+for(auto &s: text){
+    for(auto &c: s){
+        if(isalpha(c))
+            c = toupper(c);
+    }
+    cout << s << " ";
+}
+~~~
+
+##3.23
+
+
 
 
 

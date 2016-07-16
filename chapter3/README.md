@@ -150,7 +150,22 @@ for(auto &s: text){
 
 ##3.23
 
+[ex3_23.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_23.cpp)
 
+
+##3.24
+
+
+[ex3_24.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_24.cpp)
+
+##3.25
+
+[ex3_25.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_25.cpp)
+
+
+##3.26
+
+because the is no a syntax like iterator +/- iterator.
 
 
 

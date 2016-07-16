@@ -3,20 +3,15 @@
 using namespace std;
 
 int main(int argc, char** argv){
-	int i = 0, &r = i;
-	auto a = i;
-	decltype(i) b = i;
-	auto c = r;
-	decltype(r) d = r;
-	decltype((i)) e = i;
-	a++;
-	cout << "i="<<i<<endl;
-	b++;
-	cout << "i="<<i<<endl;
-	c++;
-	cout << "i="<<i<<endl;
-	d++;
-	cout << "i="<<i<<endl;
-	e++;
-	cout << "i="<<i<<endl;
+	const int i = 42;
+	auto j = i;
+	const auto &k = i;
+	auto *p = &i;
+	const auto j2 = i, &k2 = i;
+    cout << "i type is " << typeid(i).name() << endl
+		 << "j type is " << typeid(j).name() << endl
+		 << "k type is " << typeid(k).name() << endl
+		 << "p type is " << typeid(p).name() << endl
+		 << "j2 type is " << typeid(j2).name() << endl
+		 << "k2 type is " << typeid(k2).name() << endl;
 }

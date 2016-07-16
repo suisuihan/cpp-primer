@@ -74,3 +74,21 @@ it depends what the function body wants to do. If it tries to change c, it is il
 c is const char reference;
 
 ##3.12
+
+~~~
+vector<vector<int>> ivec;         // legal, type is vector<int>;
+vector<string> svec = ivec;       // illegal, tpye ivec is not string;
+vector<string> svec(10, "null");  // legal, svec has 10 string, initialize by string "null". 
+~~~
+
+##3.13
+
+~~~
+(a) v1 has 0 item;
+(b) v2 has 10 items, each is 0;
+(c) v3 has 10 items, each is 42;
+(d) v4 has 1 items, each is 10;
+(e) v5 has 2 items, first is 10, second is 42;
+(f) v6 has 10 strings, each is "";
+(g) v7 has 10 strings, each is "hi".
+~~~

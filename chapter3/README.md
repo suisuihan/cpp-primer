@@ -37,5 +37,40 @@ the example is exercise3_2.
 ##3.5
 
 the code files are
-[ex3_5.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_5_1.cpp)
-[ex3_5.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_5_2.cpp)
+[ex3_5_1.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_5_1.cpp)
+[ex3_5_2.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_5_2.cpp)
+
+##3.6
+
+[ex3_6.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_6.cpp)
+
+##3.7
+if loop control variable is char instead of reference char, for code like:
+
+```
+for(auto c: s)
+    c = 'X';
+```
+
+c is a copy of the character in string, and c = 'X' has nothing relationship with string s.
+
+##3.8
+
+[ex3_8_1.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_8_1.cpp)
+[ex3_8_2.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_8_2.cpp)
+
+I like the range for expression, it looks more simple than others;
+
+##3.9
+
+the code attends to print the first character in s. While s is empty, the behavior is undefined.
+
+##3.10
+[ex3_10.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_10.cpp)
+
+##3.11
+it depends what the function body wants to do. If it tries to change c, it is illegal.
+
+c is const char reference;
+
+##3.12

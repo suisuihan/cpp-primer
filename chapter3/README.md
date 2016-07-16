@@ -129,9 +129,12 @@ I like second.
 
 ##3.20
 
-[ex3_30.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_20.cpp)
+[ex3_20.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_20.cpp)
 
 
+##3.21
+
+[ex3_21.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_21.cpp)
 
 
 

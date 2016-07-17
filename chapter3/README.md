@@ -210,9 +210,21 @@ if scores is undefined, it's value may not be zero.
 
 p1 and p2 point to the same address. Any value is legal.
 
-#3.35
+##3.35
+
+[ex3_35.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_35.cpp)
+
+##3.36
 
 
+[ex3_36.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_36.cpp)
+
+
+##3.37 
+
+ca does not cotain '\0', so the while(*p) would not stop until it meets another '\0' .
+
+##3.38
 
 
 

@@ -206,6 +206,11 @@ for(size_t index=0; index<10; index++)
 
 if scores is undefined, it's value may not be zero.
 
+#3.34 
+
+p1 and p2 point to the same address. Any value is legal.
+
+#3.35
 
 
 

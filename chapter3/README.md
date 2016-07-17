@@ -222,10 +222,16 @@ p1 and p2 point to the same address. Any value is legal.
 
 ##3.37 
 
-ca does not cotain '\0', so the while(*p) would not stop until it meets another '\0' .
+ca does not contain '\0', so the while(*p) would not stop until it meets another '\0' .
 
 ##3.38
 
+when point a plus point b, b will turn to an number, no one know where the result will point to.
+
+##3.39
+
+
+[ex3_40.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_40.cpp)
 
 
 

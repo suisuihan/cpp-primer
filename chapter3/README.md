@@ -168,11 +168,43 @@ for(auto &s: text){
 because the is no a syntax like iterator +/- iterator.
 
 
+#3.27
+
+(a)illegal, buf_size should be const expression. (c) illegal, the return value type should bi constexpr. (d) illegal, the size should be 12.
+
+#3.28
+
+* array sa's value is empty. The global object uses default-initialized;
+* array ia's value is zero. The global basic variable uses default-initialized;
+* array sa2's value is empty. The local object used default-initialized;
+* array ia2's value is zero. The local basic variable is undefined.
+
+##3.29
+
+* array's length is fixed.
+* array's operations are less than vector's.
+
+##3.30
+
+when ix = 10, the ia[10] is undefined.
+
+##3.31
+
+~~~
+int ia[10];
+for(size_t index=0; index<10; index++)
+    ia[index] = index;
+~~~
+
+##3.32
 
 
+[ex3_32.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_32.cpp)
 
 
+##3.33
 
+if scores is undefined, it's value may not be zero.
 
 
 

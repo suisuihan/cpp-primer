@@ -230,7 +230,9 @@ when point a plus point b, b will turn to an number, no one know where the resul
 
 ##3.39
 
+[ex3_39.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_39.cpp)
 
+##3.40
 [ex3_40.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_40.cpp)
 
 

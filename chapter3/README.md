@@ -237,4 +237,13 @@ when point a plus point b, b will turn to an number, no one know where the resul
 
 
 
+##3.41
+[ex3_41.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_41.cpp)
+
+
+##3.42
+[ex3_42.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_42.cpp)
+
+
+
 

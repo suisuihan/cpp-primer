@@ -245,5 +245,19 @@ when point a plus point b, b will turn to an number, no one know where the resul
 [ex3_42.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_42.cpp)
 
 
+##3.43
+[ex3_43.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_43.cpp)
+
+
+##3.44
+[ex3_44.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_44.cpp)
+
+
+##3.45
+[ex3_45.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter3/ex3_45.cpp)
+*note: in for(auto &row: arr), row must be reference. When row is not a reference, compiler init row with the point which point to
+arr[row], thus row is int*. 
+
+
 
 

@@ -35,7 +35,7 @@ unsigned short a = 0-1;
 ##ex4_8
 
 AND: calculate right while left is true;    
-OR: calculate right while left is false;
+OR: calculate right while left is false;  
 ==: calculate both side.
 
 ##ex4_9

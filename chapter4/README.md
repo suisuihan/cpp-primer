@@ -41,6 +41,7 @@ OR: calculate right while left is false;
 ##ex4_9
 
 first: cp is null? in another word, cp point nothing?
+
 second: *cp is null?
 
 ##ex4_10

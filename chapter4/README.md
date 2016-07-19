@@ -30,7 +30,7 @@ I like the explicit rules.
 unsigned int a = 0-1; 
 unsigned a = 0-1; 0-1; 
 unsigned short a = 0-1; 
-~~
+~~~
 
 ##ex4_8
 

@@ -61,3 +61,28 @@ a>b && b>c && c>d
 "<"'s level is high then "!=", so it means i!=(j<k)
 
 ##ex4_13
+
+(a)d=3.0 ,i=3
+
+(b)d=3.5, i =3
+
+##ex4_14
+
+* if(42 = i) in time of compiling , compiler reports error. constant can not be assigned.
+
+* if(i = 42) right forever. 
+
+##ex4_15
+
+pi is a int point.
+~~~
+dval = ival = *pi = 0
+~~~
+
+##ex4_16
+
+
+if((p=getPtr()) != 0);  
+if(i == 1024)
+
+##ex4_17

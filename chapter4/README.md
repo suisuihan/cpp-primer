@@ -86,3 +86,75 @@ if((p=getPtr()) != 0);
 if(i == 1024)
 
 ##ex4_17
+
+* after i++, i = i+1, the expression value is i(before +1), for example:
+~~~
+int i = 1;
+cout << i++ << endl;
+cout << i << endl;
+
+the result is :
+1
+2
+~~~
+
+* after ++i, i = i + 1, the expression value is i(after +1), for example:
+~~~
+int i = 1;
+cout << ++i << endl;
+cout << i << endl;
+
+the result is :
+2
+2
+~~~
+
+* ++i expression is more efficiency then i++. i++ should remember two values: before, after.
+
+##ex4_18
+
+it start with the second iterator, and print the itrator afer the last one, which out of the range.
+
+##ex4_19
+
+~~~
+* ptr !=0 && *ptr++ // check ptr is or not nullptr, then check *ptr is or not null, last ptr point next value
+* ival++ && ival    // check ival is zero, then check ival+1 is zero.
+* vec[ival++] <= vec[ival] // error. vecival+1] <= vec[ival]. The behaour is undefined for compiler.
+~~~
+
+##ex4_20
+
+code:
+~~~
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main(int argc, char** argv){
+    vector<string> v{"abc","def","ghi","jkl"};
+    auto iter = v.begin();
+    cout << *iter++ << endl;                 //legal. return (*iter), then iter++
+    cout <<(*iter)++ << endl;                //illegal. string can not ++
+    cout << *iter.empty() << endl;           //illegal. '.''s level is high then *
+    cout << iter->empty() << endl;           // llegal.
+    cout << ++*iter << endl;                 //string can not ++
+    cout << iter++->empty() << endl;         //return iter->empty(), then iter++.
+    return 0;
+}
+~~~
+
+compiling infomation:
+~~~
+zhaoyf@ubuntu:/opt/app/git/cpp-primer/chapter4$ g++ -std=c++11 -o a.out ex4_20.cpp 
+ex4_20.cpp: In function ‘int main(int, char**)’:
+ex4_20.cpp:10:19: error: no ‘operator++(int)’ declared for postfix ‘++’ [-fpermissive]
+     cout <<(*iter)++ << endl;
+                   ^
+ex4_20.cpp:11:19: error: ‘class __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >’ has no member named ‘empty’
+     cout << *iter.empty() << endl;
+                   ^
+ex4_20.cpp:13:13: error: no match for ‘operator++’ (operand type is ‘std::__cxx11::basic_string<char>’)
+     cout << ++*iter << endl;          ^
+~~~

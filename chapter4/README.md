@@ -158,3 +158,19 @@ ex4_20.cpp:11:19: error: ‘class __gnu_cxx::__normal_iterator<std::__cxx11::bas
 ex4_20.cpp:13:13: error: no match for ‘operator++’ (operand type is ‘std::__cxx11::basic_string<char>’)
      cout << ++*iter << endl;          ^
 ~~~
+
+##ex4_21
+
+[ex4_21.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter4/ex4_21.cpp);
+
+##ex4_22
+
+[ex4_22.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter4/ex4_22.cpp);
+
+##ex4_23
+Operator Precedence:  + == 
+string pl = s + (s[s.size() - 1] == 's' ? "" : "s") ;
+
+##ex4_24
+
+skip

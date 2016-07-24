@@ -174,3 +174,115 @@ string pl = s + (s[s.size() - 1] == 's' ? "" : "s") ;
 ##ex4_24
 
 skip
+
+##ex4_25
+
+[ex4_25](https://github.com/suisuihan/cpp-primer/blob/master/chapter4/ex4_25.cpp)
+~~~
+2232 // BIN: 0001 1100 0100 0000
+~~~
+
+##ex4_26
+
+if int's size is less than 32 on the machine, the behaviour is undefined.
+
+##ex4_27
+
+(a) 011 & 1011 = 0011
+
+(b) 011 & 1011 = 1011
+
+(c) 011 && 1011 = true
+ 
+(d) 011 || 1011 = true
+
+##ex4_28
+
+[ex4_28](https://github.com/suisuihan/cpp-primer/blob/master/chapter4/ex4_28.cpp)
+
+##ex4_29
+
+the two expressions have same result: 10.
+the first has no question. In my opinion, p point to the same address as x, because the name of array is a pointer which point to the begin of array,
+ and pointer's type depends array's element. In this case, x's element is int, so x is int*, and p is int*, too.
+
+[ex4_29](https://github.com/suisuihan/cpp-primer/blob/master/chapter4/ex4_29.cpp)
+
+
+##ex4_30
+
+while I am not sure about the priority, use ().
+~~~
+(a) (sizeof x)+y
+(b) sizeof(p->mem[i])
+(c) (sizeof a)<b
+(d) sizeof(f())
+~~~
+
+##ex4_31
+
+look ex4_17
+
+##ex4_32
+
+ix and ptr implement the same fuction: traverse the array.
+
+##ex4_33
+
+if someValue is true, x=x+1, y=y+1 ,and return y(after +1); else if someValue is false , x=x-1, y=y-1, return y(after -1).
+
+##ex4_34
+
+~~~
+if(fval) // float -> boolean
+dval = fval + ival // int -> float, float ->double
+dval + ival * cval // c -> int, int -> double
+~~~
+
+##ex4_35
+
+~~~
+(a) yes. char - >int , int -> char.
+(b) yes. ival -> float.
+(c) yes. i -> float, float -> double.
+(d) yes. i -> float, float -> double, double -> char.
+~~~
+
+##ex4_36
+
+~~~
+i*=static_cast<int>(d)
+~~~
+
+##ex4_37
+
+~~~
+(a) pv = const_cast<char*>(ps);
+(b) i = static_cast<int>(*pc);
+(c) pv = static_cast<void*>(&d);
+(d) pc = static_cast<char*>(pv);
+~~~
+
+##ex4_38
+
+j/i is int, convert to double.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

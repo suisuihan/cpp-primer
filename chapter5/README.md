@@ -39,4 +39,24 @@ while(bool status = find(word)){
 ~~~
 
 ##ex5_5
-[]()
+[ex5_5](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_5.cpp)
+
+##ex5_6
+[ex5_6](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_6.cpp)
+
+##ex5_7
+~~~
+(a) ival1 = ival2; // add ;
+(b) if(ival < minval){
+        minval = ival;
+        occurs =1;
+    }
+(c) it looks like can run well...
+(d) if (ival == 0)
+~~~
+
+##ex5_8
+
+c++ suports that if can has not else, so when we have more than one if, we don't know which if the else should belong. C++ 
+discipline the else belong the if which is nearest to itself.
+

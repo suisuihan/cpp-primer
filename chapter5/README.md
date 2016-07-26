@@ -77,3 +77,30 @@ discipline the else belong the if which is nearest to itself.
 [ex5_12](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_12.cpp)
 
 **notice: cin >> std::noskipws >> ch means not skip ' ' '\t' or '\n'**
+
+##ex5_13
+
+~~~
+(a)switch(/**/){
+    case:   // need add break;
+}
+
+(b)
+    ix is a local variable in case, it can be declare without define in case 1, but i chocie to declare it out of switch ... case ...
+
+(c)
+    digit will never be 10, but can be 0
+
+(d)
+    case label must be const expression, so define ival/jval/kval as const.
+
+##ex5_14
+[ex5_14_a](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_14_a.cpp)
+
+there is a bug in this code. While there are more then one string appare the same times, it only tell the first string.
+another version is [ex5_14_b](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_14_b.cpp).
+
+* use vector store statement;
+* use sort and lambda expression sort vector;
+
+

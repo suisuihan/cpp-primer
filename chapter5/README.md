@@ -60,3 +60,20 @@ while(bool status = find(word)){
 c++ suports that if can has not else, so when we have more than one if, we don't know which if the else should belong. C++ 
 discipline the else belong the if which is nearest to itself.
 
+##ex5_9
+
+[ex5_9](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_9.cpp)
+
+##ex5_10
+
+[ex5_11](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_10.cpp)
+
+##ex5_11
+
+[ex5_11](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_11.cpp)
+
+##ex5_12
+
+[ex5_12](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_12.cpp)
+
+**notice: cin >> std::noskipws >> ch means not skip ' ' '\t' or '\n'**

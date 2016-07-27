@@ -103,4 +103,53 @@ another version is [ex5_14_b](https://github.com/suisuihan/cpp-primer/blob/maste
 * use vector store statement;
 * use sort and lambda expression sort vector;
 
+##ex5_15
+
+(a) if always sucess.
+
+(b) ix should be init. 'for' '()' should have two ';'
+
+(c) if ix and sz's value wont change in {}, the for cycle may never stop.
+
+##ex5_16
+
+~~~
+int money = 1000;
+int papers = 0;
+while(money != 0){
+    money--;
+    papers++;
+}
+~~~
+
+~~~
+for(int money=1000, papers=0; money != 0; money++, papers++);
+~~~
+
+##ex5_17
+
+[ex5_17](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_17.cpp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

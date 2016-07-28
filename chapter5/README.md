@@ -93,6 +93,7 @@ discipline the else belong the if which is nearest to itself.
 
 (d)
     case label must be const expression, so define ival/jval/kval as const.
+~~~
 
 ##ex5_14
 [ex5_14_a](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_14_a.cpp)

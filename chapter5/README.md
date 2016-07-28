@@ -131,13 +131,58 @@ for(int money=1000, papers=0; money != 0; money++, papers++);
 [ex5_17](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_17.cpp)
 
 
+##ex5_18
+
+(a) do{something}while(...),something should be one statement or in a block;
+
+(b) ival is a local varible; it should be declare out of while
+
+(c) ival is a local varible; it should be declare out of do {...}
+
+##ex5_19
+
+[ex5_19](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_19.cpp)
+
+##ex5_20
 
 
+[ex5_20](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_20.cpp)
+
+##ex5_21
+
+~~~
+    int sz;
+    while(sz > 0){
+        sz = get_size();
+    }
+~~~
 
 
+##ex5_22
 
 
+[ex5_22](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_22.cpp)
 
+
+##ex5_23
+
+
+[ex5_23](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_23.cpp)
+
+
+##ex5_24
+
+
+[ex5_24](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_24.cpp)
+
+
+##ex5_25
+
+
+[ex5_25](https://github.com/suisuihan/cpp-primer/blob/master/chapter5/ex5_25.cpp)
+
+
+end at one ... night.
 
 
 

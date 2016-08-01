@@ -123,3 +123,9 @@ vector<int> change(int a, vector<int>::iterator itr);
 
 ##[ex6_23](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_23.cpp)
 
+##ex6_24
+
+in the case, (const int ia[10]) equals (const int*). We can use:
+~~~
+void print(const int (*arr)[10]){...}
+~~~

@@ -10,6 +10,9 @@ int fact(int val){
 }
 
 int main(){
-    cout << fact(5) << endl;
+    cout << "please enter the number:";
+    int m;
+    cin >> m;
+    cout << fact(m) << endl;
 }
 

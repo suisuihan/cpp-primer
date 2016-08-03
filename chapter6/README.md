@@ -133,3 +133,27 @@ void print(const int (*arr)[10]){...}
 ##[ex6_25](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_25.cpp)
 
 ##[ex6_26](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_26.cpp)
+
+##[ex6_27](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_27.cpp)
+
+
+##ex6_28
+
+elem is const string&
+
+##ex6_29
+
+while the loop variable is simple type easy to copy, it is not nessary to be a &; otherwise it's better to be a reference.
+
+##ex6_30
+```
+warning: control reaches end of non-void function [-Wreturn-type]
+```
+
+##ex6_31
+
+while the variable will be destroied out of the function.
+
+##ex6_32
+
+legal. 

@@ -14,5 +14,6 @@ int main(){
     int m;
     cin >> m;
     cout << fact(m) << endl;
+    cout << fact(m) << endl;
 }
 

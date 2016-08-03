@@ -129,3 +129,7 @@ in the case, (const int ia[10]) equals (const int*). We can use:
 ~~~
 void print(const int (*arr)[10]){...}
 ~~~
+
+##[ex6_25](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_25.cpp)
+
+##[ex6_26](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_26.cpp)

@@ -154,6 +154,19 @@ warning: control reaches end of non-void function [-Wreturn-type]
 
 while the variable will be destroied out of the function.
 
-##ex6_32
+##[ex6_32](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_32.cpp)
 
 legal. 
+
+##[ex6_33](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_33.cpp)
+
+##ex6_34
+
+* if the argument val > 0, it can return the true result;
+* if the argument val < 0, it wo'nt stop.
+
+##ex6_35
+
+value of "val--" is val, the function will not stop
+
+

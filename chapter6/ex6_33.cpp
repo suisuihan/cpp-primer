@@ -1,22 +1,20 @@
 #include <iostream>
-#include <string>
 #include <vector>
-
 using namespace std;
-
 template<typename T>
-void printValue(vector<T>::const_iterator itrBegin, vector<T>::const_iterator itrEnd){
-    if(itrBegin != itrEnd){
-        cout << *itrBegin << endl;
-        printValue(++itrBegin, itrEnd);
-
+void printValue(T begItr, T endItr )
+{
+    if (begItr != endItr)
+    {
+        cout << *begItr << endl;
+        printValue(++begItr, endItr);
     }
 }
 
-int main(int argc, char **argv){
-    vector<int> ivec{1,2,3};
-    printValue(ivec.begin(), ivec.end());
+int main()
+{
+    vector<int> vec{ 1, 2, 3};
+    printValue(vec.cbegin(), vec.cend());
 
     return 0;
 }
-

@@ -170,3 +170,70 @@ legal.
 value of "val--" is val, the function will not stop
 
 
+##ex6_36
+```
+string (&func())[10]
+```
+
+##ex6_37
+
+```
+typedef string arrStr[10];
+arrStr& func()
+
+auto func() -> string(&)[10];
+
+string arrStr[10];
+decltype(arrStr) &func();
+
+```
+
+##ex6_38
+```
+decltype(odd) &arrPtr(int i)
+    return (i%2)?odd:even;
+
+##ex6_39
+(a) illegal, top-level const can't be department with other none const argument.
+
+(b) illegal, func can not be department with the return type.
+
+(c) legal
+
+##ex6_40
+
+(b) illegal. The default argument must be placed at the end of function arguments list.
+
+##ex6_41
+
+(a) illegal, argument ht must get a parameter
+
+(b) legal
+
+(c) illegal
+
+##[ex6_42](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_42.cpp)
+
+
+##ex6_43
+
+(a) put in head.h, it is an inline function;
+
+(b) put in .cpp file
+```
+inline bool isShorter(const string &s1, const string &s2){
+    return s1.size() < s2.size();
+}
+```
+
+##[ex6_44](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_44.cpp)
+
+##ex6_45
+
+first, the function should be short;
+second, it should be used everywhere , or often.
+
+##ex6_46
+
+no, it can't be sure about it's argument and return value.
+

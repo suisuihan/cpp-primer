@@ -192,6 +192,7 @@ decltype(arrStr) &func();
 ```
 decltype(odd) &arrPtr(int i)
     return (i%2)?odd:even;
+```
 
 ##ex6_39
 (a) illegal, top-level const can't be department with other none const argument.

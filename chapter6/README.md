@@ -189,6 +189,7 @@ decltype(arrStr) &func();
 ```
 
 ##ex6_38
+
 ```
 decltype(odd) &arrPtr(int i)
     return (i%2)?odd:even;
@@ -221,13 +222,14 @@ decltype(odd) &arrPtr(int i)
 (a) put in head.h, it is an inline function;
 
 (b) put in .cpp file
+
+
+##ex6_44
 ```
 inline bool isShorter(const string &s1, const string &s2){
     return s1.size() < s2.size();
 }
 ```
-
-##[ex6_44](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_44.cpp)
 
 ##ex6_45
 

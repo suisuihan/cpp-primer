@@ -1,8 +1,10 @@
 #ifndef EX7_2H
 #define EX7_2H
 
+#include <string>
+
 struct Sales_data{
-    string isbn() const {return bookNo};
+    std::string isbn() const {return bookNo;};
     Sales_data &combine(const Sales_data &);
     std::string bookNo;
     unsigned units_sold = 0;

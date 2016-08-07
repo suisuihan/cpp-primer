@@ -297,5 +297,5 @@ ex6_51.cpp:18:6: note: candidate: void f(double, double)
 
 ##[ex6_55](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_55.cpp)
 
-##[ex6_56](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_56.cpp)
+##[ex6_56](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_55.cpp)
 

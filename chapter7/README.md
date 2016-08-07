@@ -17,3 +17,13 @@
 
 ##[ex7_7](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_7.cpp)
 
+##ex7_8
+
+read function want to change the member value of the class, and print not.
+
+##[ex7_9](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/Person.h)
+
+##ex7_10
+
+set data1, then set data2.
+

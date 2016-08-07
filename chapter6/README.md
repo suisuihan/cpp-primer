@@ -240,3 +240,62 @@ second, it should be used everywhere , or often.
 
 no, it can't be sure about it's argument and return value.
 
+##[ex6_47](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_47.cpp)
+
+##ex6_48
+
+the function wants to input s string, then check the input string is sought or not.
+
+result of 'cin' will always be successful, so it's better to assert(s == sought) 
+
+##ex6_49
+
+(a) candidate function: all of the override function: having the same name of called function; can be called at that moment.
+
+(b) viable function: the parameters' number is same to the called function; each of parameter has same type or can convert to the same type.
+
+##ex6_50
+
+(a) ambiguity. 2.56 matchs double while 42 matchs int
+
+(b) f(int)
+
+(c) f(int, int)
+
+(d) f(double, double = 3.14)
+
+##ex6_51
+[ex6_51_1](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_51_1.cpp) get an error while compiling:
+```
+zhaoyf@ubuntu:/opt/app/git/cpp-primer/chapter6$ g++ -Wall -D NDEBUG -std=c++11 -o a.out ex6_51.cpp 
+ex6_51.cpp: In function ‘int main()’:
+ex6_51.cpp:28:15: error: call of overloaded ‘f(double, int)’ is ambiguous
+     f(2.56, 42);
+               ^
+ex6_51.cpp:14:6: note: candidate: void f(int, int)
+ void f(int a, int b){
+      ^
+ex6_51.cpp:18:6: note: candidate: void f(double, double)
+ void f(double a, double b = 3.14){
+      ^
+```
+
+[ex6_51_2](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_51_2.cpp)
+
+##ex6_52
+
+(a) integral promotion
+
+(b) arithmetic conversion
+
+##ex6_53
+
+(a) two funciton; (b) two function; (c) const is a high-level variable, illegal.
+
+
+##[ex6_54](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_54.cpp)
+
+##[ex6_55](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_55.cpp)
+
+##[ex6_56](https://github.com/suisuihan/cpp-primer/blob/master/chapter6/ex6_56.cpp)
+

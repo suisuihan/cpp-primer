@@ -43,3 +43,26 @@ Sales_data() : bookNo("test"), units_sold(0) , revenue(0){ }
 
 
 ##[ex7_15](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_15.cpp)
+
+
+##ex7_16
+
+no restrict about how many times the access specifiers should be.
+
+if the member or function should be access to any one, it should be public; if should 
+be access to is self, it should by private;
+
+##ex7_17
+
+the default access specifiers are different from each other.
+in class ,it's private; in struct, it's public.
+
+
+##ex7_18
+
+encapsulation hides the detail of it's implement.
+
+##ex7_19
+
+getName/getAddress are publc, and name/address are private.
+

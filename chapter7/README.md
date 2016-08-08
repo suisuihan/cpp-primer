@@ -27,3 +27,12 @@ read function want to change the member value of the class, and print not.
 
 set data1, then set data2.
 
+##[ex7_11](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_11.cpp)
+
+##[ex7_12](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_12.cpp)
+
+note: read need declare before the define of struct Sales_data, and the declare of struct Sales_data should be before the read.
+
+
+##[ex7_13](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_13.cpp)
+

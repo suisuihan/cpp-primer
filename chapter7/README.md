@@ -36,3 +36,10 @@ note: read need declare before the define of struct Sales_data, and the declare 
 
 ##[ex7_13](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_13.cpp)
 
+##ex7_14
+```
+Sales_data() : bookNo("test"), units_sold(0) , revenue(0){ }
+```
+
+
+##[ex7_15](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_15.cpp)

@@ -112,13 +112,21 @@ xxxxxxxxxxxxxxxxxxxxxxxxx
 [ex7_28.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_28.h)[ex7_28.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_28.cpp)
 
 
+##ex7_29
+
+look above
+
+##ex7_30
+
+pros:* be clear to read 
+     * can use the paramete that has the same name of class
+
+cons:* to0 long to read
+     * sometimes it is not necessity
 
 
-
-
-
-
-
+##ex7_31
+[ex7_31.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_31.h)
 
 
 

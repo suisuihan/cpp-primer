@@ -109,7 +109,8 @@ xxxxxxxxxxxxxxxxxxxx#xxxx
 xxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-[ex7_28.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_28.h)[ex7_28.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_28.cpp)
+[ex7_28.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_28.h)
+[ex7_28.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_28.cpp)
 
 
 ##ex7_29

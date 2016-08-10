@@ -20,8 +20,14 @@ public:
     Sales_data(std::istream &is){
         read(is, *this);
     }
-    std::string isbn() const {return bookNo;};
+    std::string isbn() const {return bookNo;}
     Sales_data &combine(const Sales_data &);
+    inline double avg_price(){
+        if(units_sold == 0)
+            return 0.0;
+        else
+            return revenue/units_sold;
+    }
 private:
     std::string bookNo;
     unsigned units_sold = 0;

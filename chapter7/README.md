@@ -66,3 +66,61 @@ encapsulation hides the detail of it's implement.
 
 getName/getAddress are publc, and name/address are private.
 
+##ex7_20
+
+when other class or function want to access to a class's private member, the friend declare is needed.
+
+PRO: friend function can visit a class's private members;
+
+CON: break the encapsulation of class
+
+##ex7_21
+[ex7_12.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_12.h)
+
+##ex7_22
+
+[ex7_22.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_22.h)
+
+
+##ex7_23
+[ex7_23.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_23.h)
+
+##ex7_24
+
+[ex7_24.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_24.h)
+
+
+
+
+##ex7_27
+
+[ex7_27.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_27.h)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

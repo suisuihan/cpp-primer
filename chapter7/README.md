@@ -118,11 +118,13 @@ look above
 
 ##ex7_30
 
-pros:* be clear to read 
-     * can use the paramete that has the same name of class
+pros:
+* be clear to read 
+* can use the paramete that has the same name of class
 
-cons:* to0 long to read
-     * sometimes it is not necessity
+cons:
+* to0 long to read
+* sometimes it is not necessity
 
 
 ##ex7_31

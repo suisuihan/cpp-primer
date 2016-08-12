@@ -132,8 +132,13 @@ cons:
 [ex7_31.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_31.h)
 
 
-##ex7_31
+##ex7_32
 [ex7_32.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_32.h)
+
+
+
+##ex7_33
+[ex7_33.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_33.h)
 
 
 

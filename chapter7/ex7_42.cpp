@@ -1,6 +1,6 @@
 #include <string>
 #include <iostream>
-#include "ex7_40.h"
+#include "ex7_42.h"
 
 using namespace std;
 

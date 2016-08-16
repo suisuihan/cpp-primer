@@ -141,6 +141,120 @@ cons:
 [ex7_33.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_33.h)
 
 
+##ex7_34
+
+compiling error:
+```
+In file included from ex7_34.cpp:3:0:
+ex7_34.h:8:24: error: ‘pos’ has not been declared
+         void dummy_fcn(pos height){
+                        ^
+ex7_34.h:13:9: error: ‘pos’ does not name a type
+         pos cursor = 0;
+         ^
+ex7_34.h:14:9: error: ‘pos’ does not name a type
+         pos height = 0, width = 0;
+         ^
+ex7_34.h: In member function ‘void Screen::dummy_fcn(int)’:
+ex7_34.h:9:13: error: ‘cursor’ was not declared in this scope
+             cursor = width * height;
+             ^
+ex7_34.h:9:22: error: ‘width’ was not declared in this scope
+             cursor = width * height;
+                      ^
+```
+
+##ex7_35
+~~~
+typedef string Type;
+Type initVal();           // string
+class Exercise {
+public:
+    typedef double Type;
+    Type setVal(Type);   // double
+    Type initVal();      // double 
+private:
+    int val;
+};
+
+Type Exercise::setVal(Type parm) {  // return is string, argument is double
+    val = parm + initVal();         // initVal() return double, val is double
+    return val;
+}
+~~~
+
+the return of setVal() should be 'double' or 'Exercise::Type'
+```
+Exercise::Type Exercise::setVal(Type parm){
+    ...
+}
+```
+##ex7_36
+
+the sequence of c++ class members' init is  based on their apperence's squence, so rem is inited first in this case, and when rem 
+initing, base does not be inited.
+```
+X(int i, int j): rem(i%j), base(j){}
+```
+
+##ex7_37
+
+```
+Sales_data first_item(cin);         // Sales_data(std::istream &is) 
+
+int main() {
+  Sales_data next;                  // Sales_data(std::string s = "")
+  Sales_data last("9-999-99999-9"); // Sales_data(std::string s = "")
+```
+
+
+
+##ex7_38
+~~~
+Sale_data(std::istream &is = std::cin){read(is, *this);}
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

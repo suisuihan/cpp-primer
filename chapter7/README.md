@@ -242,6 +242,65 @@ this is three arguments constructor
 [ex7_42.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_42.h)
 [ex7_42.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_42.cpp)
 
+##ex7_43
+
+[ex7_43.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_43.cpp)
+
+##ex7_44
+
+illegal. There is no default constructor in class NoDefault.
+
+##ex7_45
+
+legal. C has a default constructor.
+
+##ex7_46
+
+* (a) wrong. class can be inited by default constructor if it is legal.
+* (b) wrong. wiki says:
+```
+C++标准规定，如果构造函数没有参数（nullary），或者构造函数的所有参数都有缺省值（default value），都算作缺省构造函数
+```
+* (c) wrong. the compiler will  provide a default constructor.
+* (d) wrong. only if the member can be inited default.
+
+
+##ex7_47
+
+i don't like it because sometimes it is confused.
+
+##ex7_48
+
+both ok, because there is no implicit convert to Sales_data
+
+##ex7_49
+
+```
+(a) Sales_data &combine(Sales_data); // ok
+(b) Sales_data &combine(Sales_data&); // wrong. s can only convert to a temporary Sales_data, and we can not pass a temporary to a non-const reference argument.
+(c) Sales_data &combine(const Sales_data&) const; //combine function will change the member of Sales_data, so it's wrong when having trailing const
+```
+
+##ex7_50
+
+my "Person" class does not have any constructor including one argument. ^^But if it has an argument like (istream &in), it should be explicit
+
+##ex7_51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

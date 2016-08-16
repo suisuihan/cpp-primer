@@ -215,7 +215,32 @@ Sale_data(std::istream &is = std::cin){read(is, *this);}
 ~~~
 
 
+##ex7_39
+illegal. the two constructed functions have ambiguous.
 
+##ex7_40
+[ex7_40.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_40.h)
+[ex7_40.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_41.cpp)
+
+##ex7_41
+[ex7_41.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_41.h)
+[ex7_41.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_41.cpp)
+
+output:
+~~~
+this is three arguments constructor
+this is default constructor
+-------------------------------------
+this is three arguments constructor
+this is one argument constructor
+-------------------------------------
+this is three arguments constructor
+-------------------------------------
+~~~
+
+##ex7_42
+[ex7_42.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_42.h)
+[ex7_42.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_42.cpp)
 
 
 

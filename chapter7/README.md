@@ -287,6 +287,77 @@ my "Person" class does not have any constructor including one argument. ^^But if
 
 ##ex7_51
 
+i think when the argument is func(vector<T> vec&), it is confused  when calling func(10): a vector has 10 elements, or a vector has an element which is 10?
+
+##ex7_52
+
+only if the class Sala_data is a aggregate class, it can be inited like class x = {...},but  class Sala_data has initial value in class.
+modify:
+```
+struct Sales_data {
+    std::string bookNo;
+    unsigned units_sold;
+    double revenue;
+};
+```
+##ex7_53
+
+[ex7_53.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_53.cpp)
+
+
+##ex7_54
+wiki says:
+```
+用constexpr修饰函数将限制函数的行为。
+首先，该函数的回返值类型不能为void;
+第二，函数的内容必须依照"return expr"的形式;
+第三，在参数替换后，expr必须是个常数表示式。
+```
+set_ function will change the memeber, and it does not has return statement, so can't moidified by constexpr-in c++11. In c++14, it can be used.
+wiki:
+~~~
+C++14将放松这些限制。声明为constexpr的函数可以含有以下内容：[8]
+任何声明，除了：
+static或thread_local变量。
+没有初始化的变量声明。
+条件分支语句if和switch。
+所有的循环语句，包括基于范围的for循环。
+表达式可以改变一个对象的值，只需该对象的生命期在声明为constexpr的函数内部开始。包括对有constexpr声明的任何非const非静态成员函数的调用。
+goto仍然不允许在constexpr函数中出现。
+此外，C++11指出，所有被声明为constexpr的非静态成员函数也隐含声明为const（即函数不能修改*this的值）。这点已经被删除，非静态成员函数可以为非const
+~~~
+
+##ex7_55
+
+Data is aggregate class, not constexpr class, because constexpr class requres that its memebers must be literal type, and string is not.
+
+c++11 provide a std::is_literal_type , can use is_literal_type<T>::value to judge a type is literal type or not. 
+
+
+https://github.com/suisuihan/Cpp-Primer-1/tree/master/ch07 provide a example to test Data, or [ex7_55](ttps://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_55.cpp)
+
+##ex7_56
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

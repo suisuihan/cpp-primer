@@ -338,10 +338,63 @@ https://github.com/suisuihan/Cpp-Primer-1/tree/master/ch07 provide a example to 
 
 ##ex7_56
 
+static member:
+* modified by "static" when declare.
+* associate with class, not any object.
+* static function isn't binded with any object, and it does not own this pointer.
+
+advantages:
+
+static member is independent away from any object, so when it change, any object get the new value.
+
+* static member can be a incomplete type.
+* static member can be default argument.
+
+##ex7_57
+[ex7_57](ttps://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_57.h)
 
 
+##ex7_58
 
+[ex7_58.h](ttps://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_58.h)
+[ex7_58.cpp](ttps://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_58.cpp)
 
+~~~
+zhaoyf@ubuntu:/opt/app/git/cpp-primer/chapter7$ g++ -std=c++11 -Wall -c ex7_58.cpp 
+In file included from ex7_58.cpp:1:0:
+ex7_58.h:9:26: error: ‘constexpr’ needed for in-class initialization of static data member ‘double Example::rate’ of non-integral type [-fpermissive]
+     static double rate = 6.5;
+                          ^
+ex7_58.cpp:2:17: error: ‘constexpr’ needed for in-class initialization of static data member ‘double Example::rate’ of non-integral type [-fpermissive]
+ double Example::rate;
+                 ^
+~~~
+static member should not initialize in class, except it is a constexpr. So rate should be inited out of class,
+or it should be constexpr type.
+
+fix:[ex7_58_1.h](ttps://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_58_1.h)
+[ex7_58_1.cpp](ttps://github.com/suisuihan/cpp-primer/blob/master/chapter7/ex7_58_1.cpp)
+
+~~~
+//ex7_58_1.h
+#ifndef EX7_58_1_H
+#define EX7_58_1_H
+#include <vector>
+using namespace std;
+class Example {
+public:
+    static constexpr double rate = 6.5;
+    static const int vecSize = 20;
+    static vector<double> vec;
+};
+#endif
+
+//ex7_58_1.cpp
+#include "ex7_58.h"
+double Example::rate;
+vector<double> Example::vec;
+
+~~~
 
 
 

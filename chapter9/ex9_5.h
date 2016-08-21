@@ -3,7 +3,7 @@
 #include <vector>
 
 
-bool find(std::vector<int>::iterator itrBegin, std::vector<int>::iterator itrEnd, int value){
+std::vector<int>::iterator find(std::vector<int>::iterator itrBegin, std::vector<int>::iterator itrEnd, int value){
     auto itrDiff = itrEnd - itrBegin;
     if(itrDiff > 0){
         while(itrBegin != itrEnd){

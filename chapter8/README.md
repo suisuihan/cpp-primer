@@ -44,3 +44,10 @@ when cin's rdstate changed: badbit/failbit/eofbit
 [ex8_11](https://github.com/suisuihan/cpp-primer/blob/master/chapter8/ex8_11.cpp)
 istringstream need clear before use again.
 
+##ex8_12
+in my opinion, it can have in-class initializers, but not fit to this case. what does the people's
+name should init in-class?
+
+
+##ex8_13
+[ex8_13](https://github.com/suisuihan/cpp-primer/blob/master/chapter8/ex8_13.cpp)

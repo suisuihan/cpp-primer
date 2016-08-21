@@ -29,3 +29,35 @@ fixed:
 ~~~
 while(iter1 != iter2)
 ~~~
+
+##ex9_7
+
+vector<int>::size_type
+
+
+##ex9_8
+
+list<string>::const_iterator
+list<string>::iterator
+
+
+##ex9_9
+begin is the iterator refer to the first, and it return no-const iterator when the cotainer is not const, else return const_iterator;
+ cbegin return const_iterator.
+
+##ex9_10
+* it1: vector<int>::iterator
+* it2: vector<int>::const_iterator
+* it3: vector<int>::const_iterator
+* it4: vector<int>::const_iterator
+
+
+
+
+
+
+
+
+
+
+

@@ -51,3 +51,10 @@ name should init in-class?
 
 ##ex8_13
 [ex8_13](https://github.com/suisuihan/cpp-primer/blob/master/chapter8/ex8_13.cpp)
+
+
+##ex8_14
+
+first,  entry and nums are not basic type, so they are reference;
+
+second, they should not be changed, so they are const;

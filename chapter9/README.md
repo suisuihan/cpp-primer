@@ -19,6 +19,12 @@ first, they refer the same container;
 second, they will reach the end of the container.
 
 ##ex9_4
+[ex9_4](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_4.h)
+
+##ex9_5
+[ex9_5](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_5.h)
+
+##ex9_6
 fixed:
 ~~~
 while(iter1 != iter2)

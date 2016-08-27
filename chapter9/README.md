@@ -106,6 +106,13 @@ c1 and c2 must have same container type/element type and the element's type supp
 
 ##ex9_21
 [ex9_21](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_21.cpp)
+vector will move each element to the next index, cost O(n) time.
+
+##ex9_22
+* container.insert(olditer, value) insert the value before olditer, and the return value of insert is the new iter, so the place of insert will not change, the
+program will not stop;
+* when insert a new value, the old iterator will be invalid.
+
 
 
 

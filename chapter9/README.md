@@ -95,6 +95,17 @@ ex9_14.cpp:9:41: warning: ISO C++ forbids converting a string constant to ‘cha
 ##ex9_17
 c1 and c2 must have same container type/element type and the element's type support "<" operate.
 
+##ex9_18
+[ex9_18](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_18.cpp)
+
+##ex9_19
+[ex9_19](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_19.cpp)
+
+##ex9_20
+[ex9_20](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_20.cpp)
+
+##ex9_21
+[ex9_21](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_21.cpp)
 
 
 

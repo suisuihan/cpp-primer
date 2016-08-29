@@ -138,6 +138,47 @@ ex9_24_2.cpp:12:36: error: request for member ‘begin’ in ‘vec’, which is
                                     ^
 ```
 
+##ex9_25
+
+* if elem1 == elem2, no element will be delete
+* if elem2 is c.end(), the container will delete elements from elem1 to the end;
+* fi elem1 is c.end(), no element will be delete
+
+##ex9_26
+[ex9_26](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_26.cpp)
+
+##ex9_27
+[ex9_27](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_27.cpp)
+
+##ex9_28
+[ex9_28](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_28.cpp)
+
+##ex9_29
+* insert 75 elements to vec, the value are inited default;
+* delete 15 elements from the back of vec
+
+
+##ex9_30
+
+the type of element should have a default constructor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

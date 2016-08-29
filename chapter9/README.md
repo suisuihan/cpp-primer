@@ -113,6 +113,46 @@ vector will move each element to the next index, cost O(n) time.
 program will not stop;
 * when insert a new value, the old iterator will be invalid.
 
+##ex9_23
+all equal the copy of the unique elent of c
+
+##ex9_24
+[ex9_24_1](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_24_1.cpp)
+[ex9_24_2](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_24_2.cpp)
+
+```
+zhaoyf@ubuntu:/opt/app/git/cpp-primer/chapter9$ g++ -std=c++11 -Wall -o a.out ex9_24_2.cpp
+ex9_24_2.cpp: In function ‘int main()’:
+ex9_24_2.cpp:9:33: error: request for member ‘at’ in ‘vec’, which is of non-class type ‘std::vector<std::__cxx11::basic_string<char> >()’
+     cout << "vec.at(0)=" << vec.at(0)<<endl;
+                                 ^
+ex9_24_2.cpp:10:31: warning: pointer to a function used in arithmetic [-Wpointer-arith]
+     cout << "vec[0]=" << vec[0]<<endl;
+                               ^
+ex9_24_2.cpp:10:31: warning: the address of ‘std::vector<std::__cxx11::basic_string<char> > vec()’ will always evaluate as ‘true’ [-Waddress]
+ex9_24_2.cpp:11:35: error: request for member ‘front’ in ‘vec’, which is of non-class type ‘std::vector<std::__cxx11::basic_string<char> >()’
+     cout << "vec.front()=" << vec.front() << endl;
+                                   ^
+ex9_24_2.cpp:12:36: error: request for member ‘begin’ in ‘vec’, which is of non-class type ‘std::vector<std::__cxx11::basic_string<char> >()’
+     cout << "vec.begin()=" << *vec.begin() << endl; 
+                                    ^
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -180,12 +180,35 @@ illegal. the order of evaluation is not defined.
 crash, begin is invalid after v.insert()
 
 ##ex9_34
-
 never stop
 
+##ex9_35
+capacity: how many of all;
+
+size: how many of used.
+
+##ex9_36
+no
+
+##ex9_37
+list does not storage elements contiguously. array has fixed size.
 
 
+##ex9_38
+[ex9_38](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_38.cpp)
 
+
+##ex9_39
+* alloc another svec.size()/2 strings which is init ""
+
+##ex9_40
+
+g++:
+256, 1024, 2048, 2048 
+
+##ex9_41
+
+[ex9_41](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_41.cpp)
 
 
 

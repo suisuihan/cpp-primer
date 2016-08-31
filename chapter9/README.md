@@ -163,6 +163,13 @@ ex9_24_2.cpp:12:36: error: request for member ‘begin’ in ‘vec’, which is
 the type of element should have a default constructor.
 
 
+##ex9_31
+
+random-access iterator supports '+' operator, and bidirectional iterators does not.
+
+list<int>::iterator is bidirectional iterator; forward_list<int>::iterator is Forward_iterator;
+[ex9_31_1](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_31_1.cpp)
+[ex9_31_2](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_31_2.cpp)
 
 
 

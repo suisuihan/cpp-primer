@@ -168,9 +168,20 @@ the type of element should have a default constructor.
 random-access iterator supports '+' operator, and bidirectional iterators does not.
 
 list<int>::iterator is bidirectional iterator; forward_list<int>::iterator is Forward_iterator;
+reference: http://www.cplusplus.com/reference/iterator/
+
 [ex9_31_1](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_31_1.cpp)
 [ex9_31_2](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_31_2.cpp)
 
+##ex9_32
+illegal. the order of evaluation is not defined.
+
+##ex9_33
+crash, begin is invalid after v.insert()
+
+##ex9_34
+
+never stop
 
 
 

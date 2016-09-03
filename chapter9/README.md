@@ -231,6 +231,51 @@ reserve(128)
 
 [ex9_46](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_46.cpp)
 
+##ex9_47
+[ex9_47](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_47.cpp)
+
+##ex9_48
+string::npos
+
+##ex9_49
+[ex9_49](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_49.cpp)
+
+##ex9_50
+[ex9_50](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_50.cpp)
+
+##ex9_51
+[ex9_51](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_51.cpp)
+
+##ex9_52
+[ex9_52](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_52.cpp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

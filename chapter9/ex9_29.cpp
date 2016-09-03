@@ -9,7 +9,7 @@ void keepOdd(list<int> &li){
     while(iter != li.end()){
         if(*iter % 2){
             iter = li.insert(iter, *iter);
-            iter = iter +static_cast<list<int>::difference_type>(2);
+            iter = iter +static_cast<list<int>::ifference_type>(2);
             // iter++;
         }else
             iter = li.erase(iter);

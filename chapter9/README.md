@@ -210,9 +210,26 @@ g++:
 
 [ex9_41](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_41.cpp)
 
+##ex9_42
+
+reserve(128)
+ 
+##ex9_43
+
+[ex9_43](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_43.cpp)
+
+##ex9_44
+
+[ex9_44](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_44.cpp)
+
+##ex9_45
+
+[ex9_45](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_45.cpp)
 
 
+##ex9_46
 
+[ex9_46](https://github.com/suisuihan/cpp-primer/blob/master/chapter9/ex9_46.cpp)
 
 
 

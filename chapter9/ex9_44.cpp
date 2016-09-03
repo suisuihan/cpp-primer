@@ -6,10 +6,9 @@ using namespace std;
 void myReplace(string &s, string oldVal, string newVal){
 	int lenOldval = oldVal.length();
 	int lenNewval = newVal.length();
-	for(int index = 0; index < static_cast<int>(s.length()) - lenOldval; ){
+	for(unsigned int index = 0; index < s.length() - lenOldval; ){
 		if(s.substr(index, lenOldval) == oldVal){
-			s.erase(index, lenOldval);
-            s.insert(index,newVal);
+			s.replace(index, lenOldval, newVal);
 			index += lenNewval;
         }else
             index++;

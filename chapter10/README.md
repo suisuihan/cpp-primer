@@ -32,4 +32,4 @@ container<char *>'s element is a pointer which point to a char * array, so the e
 
 ##ex10_8
 
-the alogrithm operator iterator, and the back_inserter() return an iterator which could change the size of vontainer.
+the alogrithm operator iterator, and the back_inserter() return an iterator which could change the size of container.

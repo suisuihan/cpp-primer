@@ -3,14 +3,13 @@
 #include <algorithm>
 #include <vector>
 #include <numeric>
+#include <iterator>
 
 using namespace std;
 
 int main(){
-	vector<double> vec{1.9,2.9, 3.9};
-	cout << accumulate(vec.cbegin(), vec.cend(), 0) << endl;
+	vector<int> vec{1,2,3};
+	fill_n(vec.cbegin(), vec.cend(), 0);
+	for(auto i: vec)
+		cout << i << endl;
 }
-
-/***
-the output is 6
-***/

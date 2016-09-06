@@ -32,4 +32,14 @@ container<char *>'s element is a pointer which point to a char * array, so the e
 
 ##ex10_8
 
-the alogrithm operator iterator, and the back_inserter() return an iterator which could change the size of container.
+the algorithm operator iterator, and the back_inserter() return an iterator which could change the size of container.
+
+
+##ex10_9
+[ex10_9](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_9.cpp)
+
+##ex10_10
+
+algorithm just operate iterator, not container.
+
+

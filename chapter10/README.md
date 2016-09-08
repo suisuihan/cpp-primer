@@ -86,3 +86,10 @@ algorithm just operate iterator, not container.
 
 ##ex10_22
 [ex10_22](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_22.cpp)
+
+##ex10_23
+
+if the bind target has n parameters, bind function has n+1 parameters.
+
+##ex10_24
+[ex10_24](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_24.cpp)

@@ -43,3 +43,46 @@ the algorithm operator iterator, and the back_inserter() return an iterator whic
 algorithm just operate iterator, not container.
 
 
+
+##ex10_9
+[ex10_9](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_9.cpp)
+
+
+##ex10_10
+[ex10_10](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_10.cpp)
+
+##ex10_11
+[ex10_11](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_11.cpp)
+
+##ex10_12
+[ex10_12](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_12.cpp)
+
+##ex10_13
+[ex10_13](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_13.cpp)
+
+##ex10_14
+[ex10_14](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_14.cpp)
+
+##ex10_15
+[ex10_15](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_15.cpp)
+
+##ex10_16
+[ex10_16](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_16.cpp)
+
+##ex10_17
+[ex10_17](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_17.cpp)
+
+##ex10_18
+[ex10_18](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_18.cpp)
+
+##ex10_19
+[ex10_19](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_19.cpp)
+
+##ex10_20
+[ex10_20](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_20.cpp)
+
+##ex10_21
+[ex10_21](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_21.cpp)
+
+##ex10_22
+[ex10_22](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_22.cpp)

@@ -93,3 +93,48 @@ if the bind target has n parameters, bind function has n+1 parameters.
 
 ##ex10_24
 [ex10_24](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_24.cpp)
+
+
+##ex10_25
+[ex10_25](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_25.cpp)
+
+##ex10_26
+
+* back_inserter iterator will use push_back function
+* front_inserter iterator will use push_front function
+* inserter iterator need two parameters, the first is container, second is iterator, and the assignment expression will insert a value into the container,
+before the second parameter, and inserter iterator still point to the second parameter.
+
+##ex10_27
+
+[ex10_27](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_27.cpp)
+
+
+##ex10_28
+
+[ex10_28](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_28.cpp)
+
+
+##ex10_29
+
+[ex10_29](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_29.cpp)
+
+
+##ex10_30
+
+[ex10_30](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_30.cpp)
+
+
+##ex10_31
+
+[ex10_31](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_31.cpp)
+
+
+##ex10_32
+
+suddenly don't want to work on this homework. Tired and lonely.
+
+##ex10_33
+
+[ex10_33](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_33.cpp)
+

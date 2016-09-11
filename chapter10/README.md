@@ -138,3 +138,56 @@ suddenly don't want to work on this homework. Tired and lonely.
 
 [ex10_33](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_33.cpp)
 
+##ex10_34
+
+[ex10_34](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_34.cpp)
+
+##ex10_35
+
+[ex10_35](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_35.cpp)
+
+##ex10_36
+
+[ex10_36](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_36.cpp)
+
+##ex10_37
+
+[ex10_37](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex10_38.cpp)
+
+##ex10_38
+* input iterator: ==, !=, ++, *, ->
+* output iterator: ++, *
+* forward iterator: ++, *, ==, !=, ->
+* bidirectional iterator: ++, --, *, ==, !=, ->
+* random-access iterator: ++, --, *, ==, !=, ->, +=, -=, iterator = iter+/-n, iterator[n]
+
+##ex10_39
+
+list is bidirectional iterator; vector is random-access;
+
+##ex10_40
+
+* copy: first and second parameters need input iterators, the third parameter need output iterator;
+* reverse: bidirectional iterator;
+* unique: forward iterator.
+
+##ex10_41
+
+* replace old_val with new_val from beg iterator to end iterator in source container;
+* replace old_val with new_val when the value of container match condition in source container;
+* replace old_val with new_val from beg iterator to end iterator to dest container;
+* replace old_val with new_val when the value of container match condition to dest container;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

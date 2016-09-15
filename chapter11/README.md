@@ -71,6 +71,38 @@ map<string, vector<pair<string, string>>> family;
 ```
 
 ##ex11_15
+* mapped_type:  vector<int>
+* key_type: const int
+* pair<const key_type, vector<int>>
+
+
+##ex11_16
+[ex11_16](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex11_16.cpp)
+
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

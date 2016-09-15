@@ -182,6 +182,14 @@ terminate called after throwing an instance of 'std::runtime_error'
 Aborted (core dumped)
 ```
 
+##ex11_37
+
+unoredered_containers don't need to keep the sort of container, the efficiency of Search, Insert, Remove is high.
+
+
+##ex11_38
+
+[ex11_38](https://github.com/suisuihan/cpp-primer/blob/master/chapter10/ex11_38.cpp)
 
 
 

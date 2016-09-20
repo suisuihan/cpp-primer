@@ -21,3 +21,46 @@ non-const
 
 the non-const push_back() will be called.
 
+
+#ex12_4
+
+size_type is unsinged, never little then 0.
+
+#ex12_5
+
+keyword explicit prevent automatic conversion, so we can not use parameters like {"aa", "bb" } to init a new object.
+
+##ex12_6  
+[ex12_6](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_6.cpp)
+
+
+##ex12_7
+[ex12_7](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_7.cpp)
+
+##ex12_8
+p which convert to bool. if p point to nullptr, the bool value is false, else true, and it means p is not delete, dynamic memory is not freed.
+
+##ex12_9
+
+* r apply for dynamic memory, then r point to another field, memory leakage occur.
+* r2 is a shared_ptr, while r2 = q2, r2 reference count reduce to 0, r2 free its memory; q2 reference count add 1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

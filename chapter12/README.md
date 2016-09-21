@@ -46,6 +46,76 @@ p which convert to bool. if p point to nullptr, the bool value is false, else tr
 * r2 is a shared_ptr, while r2 = q2, r2 reference count reduce to 0, r2 free its memory; q2 reference count add 1;
 
 
+##ex12_10
+[ex12_10](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_10.cpp)
+That's OK, the parameter of process() use p to init shared_ptr, p reference count +1, when out of process, ptr automatic delete, p reference count -1.
+
+##12_11
+ptr = shared_ptr<int>(p.get()), the reference of ptr is 1, while out of process, ptr automatic delete, the memory of new int(42) free, p point to memory is undefined.
+
+
+##12_12
+
+(a) legal;
+
+(b) illegal. shared_ptr is explicit;
+
+(c) illegal. shared_ptr is explicit;
+
+(d) legal, but when out of process, the memory which p point to will be free.
+
+
+##12_13
+
+sp point to memory is undefined.
+
+##12_14
+[ex12_14](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_14.cpp)
+
+##12_15
+[ex12_15](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_15.cpp)
+
+##12_16
+[ex12_16](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_16.cpp)
+
+~~~
+zhaoyf@ubuntu:/opt/app/git/cpp-primer/chapter12$ g++ -std=c++11 -Wall -o a.out ex12_16.cpp 
+ex12_16.cpp: In function ‘int main()’:
+ex12_16.cpp:7:26: error: use of deleted function ‘std::unique_ptr<_Tp, _Dp>::unique_ptr(const std::unique_ptr<_Tp, _Dp>&) [with _Tp = int; _Dp = std::default_delete<int>]’
+     unique_ptr<int> p2 = p1;
+                          ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from ex12_16.cpp:2:
+/usr/include/c++/5/bits/unique_ptr.h:356:7: note: declared here
+       unique_ptr(const unique_ptr&) = delete;
+       ^
+ex12_16.cpp:8:26: error: use of deleted function ‘std::unique_ptr<_Tp, _Dp>::unique_ptr(const std::unique_ptr<_Tp, _Dp>&) [with _Tp = int; _Dp = std::default_delete<int>]’
+     unique_ptr<int> p3(p1);
+                          ^
+In file included from /usr/include/c++/5/memory:81:0,
+                 from ex12_16.cpp:2:
+/usr/include/c++/5/bits/unique_ptr.h:356:7: note: declared here
+       unique_ptr(const unique_ptr&) = delete;
+       ^
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

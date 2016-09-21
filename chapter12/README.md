@@ -100,8 +100,16 @@ In file included from /usr/include/c++/5/memory:81:0,
 ~~~
 
 
+##12_17
+* (a) illegal, ix is int, not int*;
+* (b) illegal, pi point to a local variable, when out of scope, pi release, but when p1 returns, p1  point to undefined memory;
+* (c) illegal, when p2 is deleted, for example, p2.release(), memory of pi2 point is freed, and pi2 becomes dangling;
+* (d) illegal, the same reason of (b);
+* (e) legal;
+* (f) illegal, while p5 is delete or release, the memory of p2 point to is freed, p2 point to the memory that undefined.
 
-
+##18
+while delete a shared_ptr, the reference count of shared_ptr will check, and the last one to free the memory, so there is no meanning to release a shared_ptr.
 
 
 

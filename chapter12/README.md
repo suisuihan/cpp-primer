@@ -111,10 +111,30 @@ In file included from /usr/include/c++/5/memory:81:0,
 ##18
 while delete a shared_ptr, the reference count of shared_ptr will check, and the last one to free the memory, so there is no meanning to release a shared_ptr.
 
+##19
+[ex12_19](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_19.cpp)
+
+##20
+[ex12_20](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_20.cpp)
+
+##21
+I choise the first one because it is easy to understand.
+
+##22
+
+//TODO...
 
 
+##23
+[ex12_23](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_23.cpp)
 
+##24
+[ex12_24](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_24.cpp)
 
+##25
+```
+delete [] pa;
+```
 
 
 

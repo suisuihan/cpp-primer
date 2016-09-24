@@ -137,7 +137,36 @@ delete [] pa;
 ```
 
 
+##26
+[ex12_26](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_26.cpp)
 
+##27
+[ex12_27.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_27.h)|[ex12_27.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_27.cpp)
+
+##28
+[ex12_28](https://github.com/suisuihan/cpp-primer/blob/master/chapter12/ex12_28.cpp)
+
+##29
+~~~
+    do{
+        cout << "please enter the word to look for, or q to quit: ";
+        cin >> word;
+        if(word == "q") break;
+        cout << word << " occurs " << wordNums[word].size() << " times" << endl;
+        for(auto &i: wordNums[word])
+            cout << "    (line: " << i << ")" << linesMsg[i] << endl;
+        cout << endl;
+    }while(true);
+~~~
+I perfer to while(true).... , just a habit.
+
+##30
+look at exercise 27
+
+##31
+vector need to judge the line number is unique or not by extra operation.
+
+##
 
 
 

@@ -32,3 +32,52 @@ Point foo_bar(Point arg) // Point arg
 ~~~
 HasPtr(HasPtr &hp):ps(new std::string(*hp.ps)), i(hp.i) { }
 ~~~
+
+##6
+* copy-assignment operator is operator=;
+* synthesized copy-assignment operator will assign right object no-static member to the left;
+* if a class does not define it's copy-assignment operator, the complier will create a synthesized copy-assignment opreator;
+
+##7
+* when StrBlob a = b, the data of b reference count +1;
+* when StrBlobPtr a = b, the a.wptr point to the b's wptr, a.curr = b.curr.
+
+##8
+~~~
+HasPtr& operator=(HasPtr &hp){
+    if(this != &hp){
+        auto newPtr = new string(*hp.ps);
+        delete ps;
+        ps = newPtr;
+        i = hp.i;
+    }
+    return *this;
+} 
+~~~
+
+##9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

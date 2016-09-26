@@ -57,6 +57,70 @@ HasPtr& operator=(HasPtr &hp){
 
 ##9
 
+* destructor is a function vith a prefix "~"
+* usually use to release the resoure of the object, sometime is empty;
+* when a class don't define it's destructor.
+
+##10
+
+* when StrBlob is destoried, the reference cout of data -1;
+* when StrBlobPtr is destoried, the object of weak_ptr point to will not be free.
+
+##11
+
+~~~
+~HasPtr(){
+    if(ps != nullptr)
+        delete ps;
+}
+~~~
+[ex13_11.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_11.h)
+##12
+
+accum/item1/item2
+
+##13
+
+[ex13_13.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_13.h)
+[ex13_13.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_13.cpp)
+
+##14
+
+three a.mysn
+
+
+##15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -10,9 +10,10 @@ void testX(X m){
 }
 
 int main(){
-    // X a;
-    // X b(a);
-    // X c = a;
+    X a;
+    X b(a);
+    X c = a;
+    c = b;
     X *d = new X;
     // testX(a);
     // vector<X> vec;

@@ -90,8 +90,18 @@ three a.mysn
 
 
 ##15
+yes. While not init, an object  use opterator "=" will call  copy constructor.
 
+##16
+three a.mysn, because class not define copy constructor.
 
+##17
+
+[ex13_17_14.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_17_14.cpp)
+
+[ex13_17_15.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_17_15.cpp)
+
+[ex13_17_16.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_17_16.cpp)
 
 
 

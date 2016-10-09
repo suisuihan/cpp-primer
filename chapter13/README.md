@@ -103,15 +103,50 @@ three a.mysn, because class not define copy constructor.
 
 [ex13_17_16.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_17_16.cpp)
 
+##18
+
+[ex13_18.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_18.h)
+
+##19
+No, it's meaningless. Employee message won't copy in real world.
+
+[ex13_19.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_19.h)
+
+##20
+the shared_ptr will be copied, and reference count +1;
+
+##21
+
+[ex13_21.h](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_21.h)
+[ex13_21.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_21.cpp)
+
+notise that QueryResult TextQuery::query(string& s) return a rvalue, so must define move-constructor.
 
 
+##22
 
 
+[ex13_22.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_22.cpp)
+
+##23
+
+* my version is to judge whether "this == &hp", then do with the different situation.
+* the book new a new pointer, then free the memory.
 
 
+##24
 
+* if not define destructor, memory leak will happen;
+* if copy-assignment operator did not define, the HasPtr's ps will point to the same object which right HasPtr's ps point to.
 
+##25
 
+* copy-constructor and copy-assignment operator create a shared_ptr with make_shared function;
+* when the reference count of shared_ptr is 0, it will destruct automatic.
+
+##26
+
+[ex13_26.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_26.cpp)
 
 
 

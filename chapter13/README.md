@@ -149,6 +149,15 @@ notise that QueryResult TextQuery::query(string& s) return a rvalue, so must def
 [ex13_26.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_26.cpp)
 
 
+##27
+
+[ex13_27.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_27.cpp)
+
+##28
+
+[ex13_28.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_28.cpp)
+
+
 
 
 

@@ -157,8 +157,18 @@ notise that QueryResult TextQuery::query(string& s) return a rvalue, so must def
 
 [ex13_28.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_28.cpp)
 
+##29
 
+swap(lh.ps, rhs.ps) match swap(string *, string *), swap(lhs.i, rhs.i) match swap(int, int), and they are match more than swap(HasPtr &lhs, HasPtr &rhs).
 
+##30
+[ex13_30.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_30.cpp)
+
+##31
+[ex13_31.cpp](https://github.com/suisuihan/cpp-primer/blob/master/chapter13/ex13_31.cpp)
+
+##32
+self-define swap function is to avoid memory alloc, the point like HasPtr does not have dynamic memory, so we cannot benefit too much.
 
 
 

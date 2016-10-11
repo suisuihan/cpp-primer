@@ -25,19 +25,6 @@ private:
     
 };
 
-// QueryResult::QueryResult(QueryResult &qr){
-//     word = qr.word;
-//     lineNums = qr.lineNums;
-//     lines = qr.lines;
-// };
-
-// QueryResult& QueryResult::operator=(QueryResult &qr){
-//     word = qr.word;
-//     lineNums = qr.lineNums;
-//     lines = qr.lines;
-//     return *this;
-// };
-
 
 class TextQuery{
 public:
